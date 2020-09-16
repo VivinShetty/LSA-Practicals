@@ -1,11 +1,12 @@
                  PRACTICAL NO 3
+Configure NTP server(NTPd),Intall and Configure NTPd
+Configure NTP client(Ubantu and Windows)
 
-
-Step 1 :- Installing NFS Server 
+Step 1 - Installing NFS Server 
 Command :- sudo apt-get -y install nfs-kernel-server
-Step 2 :- Create A New Directory and file In It.
+Step 2 - Create A New Directory and file In It.
 Command :- mkdir  dir_name
-Step 3 :- Open /etc/exports
+Step 3 - Open /etc/exports
 Command :- sudo vi /etc/exports
 Step 4 :- Add Line At End Of file.
 Command :- home/kali/dir_name 127.0.0.1(rw)
