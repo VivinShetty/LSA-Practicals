@@ -1,0 +1,25 @@
+                 PRACTICAL NO 4
+SSH Server : Password Authentication Configure SSH Server to 
+manage the Server from a remote computer : SSH Client(Ubuntu and Windows)
+[Performed in Kali Linux]
+Step 1 - Install SSH Server 
+Command : sudo apt-get install openssh-server
+Step 2 - Enable SSH service
+Command : sudo sysytemctl start ssh
+Step 3 - And Then Test It By Login Into System Using Command
+Command : ssh kali@power9-bmc
+Step 4 - Update or Upgrade and then Install OpenSSH server.
+Command : sudo apt update
+Command : sudo apt upgrade
+Step 5 - Install OpenSSH Server
+Command : sudo apt install openssh-server
+Step 6 - Verify And Run SSH Service
+Command : sudo systemctl status ssh
+Step 7 - Configure Firewall And Open Port 22
+Command : sudo ufw allow ssh
+Command : sudo ufw enable
+Command : sudo ufw status
+Command : ssh kali@server-ip
+Command : ssh kali@power9
+Command : ssh-copy-id kali@power9
+Command : ssh 127.0.0.1
