@@ -1,4 +1,5 @@
-               PRACTICAL NO 3
+                 PRACTICAL NO 3
+
 
 Step 1 :- Installing NFS Server 
 Command :- sudo apt-get -y install nfs-kernel-server
